@@ -1,8 +1,5 @@
 #include <Ultrasonic.h>
 
-// Otonom Park Eden Araba
-// Developed by Sezgin GÜL
-
 //motorların tanımları
 #include <AFMotor.h>
  AF_DCMotor Sol_On_Motor(4);
