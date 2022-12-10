@@ -270,7 +270,9 @@ if(park_durumu == 7)
 if (park_durumu ==10)
 {
   servo1.write(180);
-  servo2.write(0);
+  servo2.write(180);
+  servo3.write(0);
+  servo4.write(0);
   Robot_Hareket(Sol,180);
   say(45);
    Robot_Dur();
@@ -288,7 +290,9 @@ void setup()
   attachInterrupt(5, say, CHANGE);
    pinMode (sinyalpin, INPUT) ;
   servo1.attach(3);
-  servo2.attach(5);
+  servo2.attach(4);
+  servo3.attach(5);
+  servo4.attach(6);
  
   motor_pinSetup();  
 }
