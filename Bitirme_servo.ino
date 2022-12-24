@@ -1,5 +1,4 @@
-// Otonom Park Eden Araba
-// Developed by Sezgin GÜL
+
  
 //motorların tanımları
 #include <AFMotor.h>
