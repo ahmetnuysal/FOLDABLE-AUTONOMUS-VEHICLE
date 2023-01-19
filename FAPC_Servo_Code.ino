@@ -173,7 +173,7 @@ park_state = 2;Serial.println(park_state);
  
 if((left_Sensor >= minimum_limit1)&&(left_back_Sensor >= minimum_limit1)&&(park_state == 1))
 {
-/* Vertical Parking Decision */
+/* Parallel Parking With Servos Decision */
 Robot_Stop() ;
 delay(500);
 engine1.write(0);
